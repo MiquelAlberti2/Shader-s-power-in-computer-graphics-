@@ -1,6 +1,6 @@
 # The power of providing our shaders with a notion of time
 
-<img src="./waves_photo.jpg" width="500px" alt="picture">   <img aligh="right" src="./speaker_photo.jpg" width="500px" alt="picture">
+<img src="./waves_photo.jpg" width="400px" alt="picture">   <img aligh="right" src="./speaker_photo.jpg" width="400px" alt="picture">
 <img aligh="center" width="1000px" src="./wave_with_noise_photo.jpg" alt="picture">
 
 
@@ -18,3 +18,8 @@ But, what does a function need to produce a value? It needs an independent varia
 All the simulations that you will see in this project just need a grid of initial values and this notion of time. And you will see that we can achieve pretty cool results just by playing with that in our vertex and fragment shaders.
 
 Finally, another good thing about shaders is that we can compile and attach them to the graphics pipeline during runtime. This allows us to change our shaders during runtime, by using a keyboard input for example, and with that, we can change the whole look of our simulator just by pressing a key.
+
+### External resources used 
+  * Code provided during the CS 4300 course at Northeastern University by professor Michael Shah.
+  * https://stackoverflow.com/questions/4200224/random-noise-functions-for-glsl
+  * All the shader's content, except for the function of noise, and the general equation of a wave (which I learned in high school) are the result of combining the trial and error method with a basic knowledge of how the most elementary functions in mathematics work.
